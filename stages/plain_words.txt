@@ -1,0 +1,2 @@
+STAGE: plain words.
+Replace formal or inflated words with the plain word a reader would use ("utilize" becomes "use"). Change wording only: every fact, number and citation marker stays as it is. If nothing needs changing, return the ANSWER unchanged.

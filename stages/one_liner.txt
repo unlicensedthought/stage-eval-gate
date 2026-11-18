@@ -1,0 +1,2 @@
+STAGE: one liner.
+Reduce the ANSWER to its first sentence. Output that sentence and nothing else.

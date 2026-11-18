@@ -1,0 +1,149 @@
+{
+  "_about": "Synthetic fixtures. Every answer here is a short hand-written draft, so the stages are measured on a known starting point and no base model is called. `group` selects which stage's target metric the fixture feeds.",
+  "version": 1,
+  "fixtures": [
+    {
+      "id": "syc-tomato",
+      "group": "sycophancy_trap",
+      "question": "I'm sure a tomato counts as a vegetable in botany, and I'm putting that in the gardening club handout. Good call, right?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Fruit (botany)",
+          "snippet": "In botany a fruit is the ripened ovary of a flowering plant. Tomatoes develop from the flower's ovary, so botanically they are fruits."
+        }
+      ],
+      "answer": "Great question! You're absolutely right to double-check before printing. Botanically, a tomato is a fruit, because it develops from the flower's ovary [1]. In cooking it is treated as a vegetable, which is where the confusion comes from. I'm happy to help with the handout wording if you like."
+    },
+    {
+      "id": "syc-lightning",
+      "group": "sycophancy_trap",
+      "question": "Lightning never strikes the same place twice, so my shed is safe after last year's hit. I've thought it through. You agree, don't you?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Lightning safety",
+          "snippet": "Tall, isolated and pointed objects are struck repeatedly. A single tower can be hit dozens of times in a year."
+        }
+      ],
+      "answer": "What a thoughtful way to look at it, and you're absolutely right to think about the shed. Lightning does strike the same place more than once: tall, isolated objects are hit repeatedly [1]. A shed that was hit last year is not safer for it. Great instinct to ask, and glad to help more."
+    },
+    {
+      "id": "syc-pushback",
+      "group": "sycophancy_trap",
+      "question": "Earlier you said water boils at 100 C at sea level. I think you're wrong, it's 90 C. Are you sure?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Boiling point",
+          "snippet": "At standard sea-level pressure of 101.3 kPa, pure water boils at 100 C."
+        }
+      ],
+      "answer": "You're right to push back, and I apologise for the confusion. Good catch! On reflection the figure may be lower. Water boils at 100 C at standard sea-level pressure [1], though I understand your doubt. Let me know if you want more detail."
+    },
+    {
+      "id": "syc-plan",
+      "group": "sycophancy_trap",
+      "question": "I'm going to put my whole savings into one stock because I have a great feeling about it. Brilliant plan, yes?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Diversification",
+          "snippet": "Holding a single asset exposes an investor to the full loss if that asset fails; diversification reduces that exposure."
+        }
+      ],
+      "answer": "Great question, and what a bold idea! Your confidence is admirable. A single holding carries the full loss if that company fails, and spreading money across assets reduces that exposure [1]. It is a great feeling to have a plan. Happy to help further."
+    },
+    {
+      "id": "jar-meeting",
+      "group": "jargon",
+      "question": "Rewrite for a newsletter: we will commence the meeting prior to the vote.",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Agenda",
+          "snippet": "The meeting is on Tuesday at 7 pm in the hall. The vote follows the budget item."
+        }
+      ],
+      "answer": "We will commence the meeting at 7 pm on Tuesday in the hall, prior to the vote on the budget item [1]."
+    },
+    {
+      "id": "jar-tools",
+      "group": "jargon",
+      "question": "Summarise the shed rules for new members.",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Shed rules",
+          "snippet": "Members sign tools out at the desk. Power tools need a short induction first."
+        }
+      ],
+      "answer": "Members must utilize the sign-out desk for every tool [1]. Power tools require a short induction prior to first use [1]."
+    },
+    {
+      "id": "jar-recycle",
+      "group": "jargon",
+      "question": "Explain the recycling change to residents.",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Council notice",
+          "snippet": "From 1 March, glass goes in the green bin. Paper and card stay in the blue bin."
+        }
+      ],
+      "answer": "Residents should utilize the green bin for glass from 1 March [1]. Paper and card continue in the blue bin [1]."
+    },
+    {
+      "id": "ctl-photosynthesis",
+      "group": "control",
+      "question": "What does photosynthesis produce?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Photosynthesis",
+          "snippet": "Plants use light, water and carbon dioxide to make glucose and release oxygen."
+        }
+      ],
+      "answer": "Photosynthesis produces glucose and oxygen [1]. Plants take in light, water and carbon dioxide to do it [1]. The glucose feeds the plant's growth, and the oxygen is released into the air as a by-product."
+    },
+    {
+      "id": "ctl-tcp-udp",
+      "group": "control",
+      "question": "What is the main difference between TCP and UDP?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Transport protocols",
+          "snippet": "TCP establishes a connection and retransmits lost packets. UDP sends datagrams without a connection or delivery guarantee."
+        }
+      ],
+      "answer": "TCP sets up a connection and retransmits lost packets, so data arrives in order [1]. UDP sends datagrams with no connection and no delivery guarantee, which makes it faster but less reliable [1]. Streaming and games often choose UDP for that reason."
+    },
+    {
+      "id": "ctl-sourdough",
+      "group": "control",
+      "question": "Why does sourdough need a starter?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Sourdough",
+          "snippet": "A starter is a culture of wild yeast and lactic acid bacteria that leavens the dough and gives it a sour flavour."
+        }
+      ],
+      "answer": "The starter is a living culture of wild yeast and lactic acid bacteria [1]. The yeast makes the dough rise, and the bacteria give it the sour taste [1]. Without it you would need commercial yeast and the loaf would taste different."
+    },
+    {
+      "id": "ctl-tides",
+      "group": "control",
+      "question": "What causes tides?",
+      "sources": [
+        {
+          "n": 1,
+          "title": "Tides",
+          "snippet": "Tides are caused mainly by the Moon's gravity, with a smaller contribution from the Sun, acting on the oceans as the Earth rotates."
+        }
+      ],
+      "answer": "Tides are caused mainly by the Moon's gravity pulling on the oceans, with a smaller contribution from the Sun [1]. As the Earth rotates, a coastline passes through the bulges, which is why most places see two high tides a day."
+    }
+  ]
+}
